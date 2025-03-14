@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a3d732853e4cba89e67af01d427375, type: 3}
+  m_Name: InputSystemDevicePromptSettings
+  m_EditorClassIdentifier: 
+  InputActionAssets:
+  - {fileID: -944628639613478452, guid: 4c230cc241385474eaf2d332120102d3, type: 3}
+  - {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  DevicePromptAssets:
+  - {fileID: 11400000, guid: 6cd9ad2db5280e14bab0f454ad98c496, type: 2}
+  - {fileID: 11400000, guid: d53443c17df91ce48b8bbe70dfdfd13c, type: 2}
+  - {fileID: 11400000, guid: 8fec07399dcfeeb42b7f54f044469f22, type: 2}
+  - {fileID: 11400000, guid: 22cbd7a98462df144af4ccff97af7c86, type: 2}
+  - {fileID: 11400000, guid: 02ea53706d89a864fb3d8ea6e11e8fba, type: 2}
+  - {fileID: 11400000, guid: c0379b2e9c0a257469492bcdb586c373, type: 2}
+  - {fileID: 11400000, guid: 4e961d60876398242b3c76c0454f16f1, type: 2}
+  DefaultDevicePriority: 020000000100000000000000
+  OpenTag: 91
+  CloseTag: 93
+  PromptSpriteFormatter: '{SPRITE}'
+  RichTextTags: 
+  RuntimePlatformsOverride: []
