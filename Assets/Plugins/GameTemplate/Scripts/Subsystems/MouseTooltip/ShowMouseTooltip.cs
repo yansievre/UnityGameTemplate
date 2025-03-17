@@ -28,7 +28,7 @@ public class ShowMouseTooltip : MonoBehaviour {
 #endif
 
 	void OnEnter() {
-		TemplateGameManager.Instance.tooltip.SetText(Polyglot.Localization.Get(textKey));
+		TemplateGameManager.Instance.tooltip.SetText(textKey);
 		TemplateGameManager.Instance.tooltip.Show();
 	}
 

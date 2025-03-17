@@ -49,6 +49,12 @@ namespace Plugins.InputSystemActionPromptsExtras
 		{
 			RefreshIcon();
 		}
+		
+		public void SetAction(string action)
+		{
+			m_Action = action;
+			RefreshIcon();
+		}
 
 		/// <summary>
 		/// Sets the icon for the current action.

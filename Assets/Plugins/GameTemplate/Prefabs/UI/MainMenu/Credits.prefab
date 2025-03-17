@@ -156,7 +156,6 @@ GameObject:
   - component: {fileID: 1136375304868522781}
   - component: {fileID: 1136375304868522787}
   - component: {fileID: 1136375304868522780}
-  - component: {fileID: 4322262146007933}
   m_Layer: 0
   m_Name: Header
   m_TagString: Untagged
@@ -283,22 +282,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &4322262146007933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136375304868522782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27798c389c988da48b345a899559ce5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 1136375304868522780}
-  maintainTextAlignment: 1
-  key: MENU_LABEL_CREDITS
-  afterKeyValue: ':'
 --- !u!1 &1136375305332963030
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,7 +343,6 @@ GameObject:
   - component: {fileID: 1136375305335137686}
   - component: {fileID: 1136375305335137687}
   - component: {fileID: 5638208413390774189}
-  - component: {fileID: 896950719}
   m_Layer: 0
   m_Name: Programmer
   m_TagString: Untagged
@@ -415,11 +397,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Developed by the <link="https://yansievre.github.io"><u>yanevyuk</u></link>
-
-    Translated
-    by the <link="https://docs.google.com/spreadsheets/d/17f0dQawb-s_Fd7DHgmVvJoEGDMH_yoSd8EYigrb0zmM/edit#gid=310116733"><u>Polyglot
-    Project</u></link>'
+  m_text: Developed by <link="https://yansievre.github.io"><u>yanevyuk</u></link>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 50afb817cc5b676409cee0747c3a3d15, type: 2}
   m_sharedMaterial: {fileID: 4195896102555565440, guid: 50afb817cc5b676409cee0747c3a3d15,
@@ -503,22 +481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 589e0922950241b499dcb6f48e09f269, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &896950719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136375305335137681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27798c389c988da48b345a899559ce5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 1136375305335137687}
-  maintainTextAlignment: 1
-  key: CREDITS_PROGRAMMER_SINGLE
-  afterKeyValue: 
 --- !u!1 &1136375305404854011
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,6 +801,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1136375305689731454}
     m_Modifications:
+    - target: {fileID: 6042130559254334392, guid: 03ffde436ce582f4981b39f8bb0dd40a,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042130559254334392, guid: 03ffde436ce582f4981b39f8bb0dd40a,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: HideTopMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042130559254334392, guid: 03ffde436ce582f4981b39f8bb0dd40a,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MenuManager, GameTemplateGeneralAssembly
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042130559254334392, guid: 03ffde436ce582f4981b39f8bb0dd40a,
+        type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7143126299936962417, guid: 03ffde436ce582f4981b39f8bb0dd40a,
         type: 3}
       propertyPath: m_Pivot.x

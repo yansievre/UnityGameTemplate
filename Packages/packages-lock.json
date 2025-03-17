@@ -33,12 +33,27 @@
       },
       "hash": "7ea0a436d159e245605bcd2d8a287432e4a13c79"
     },
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "cc3c70af90d4edbe5bf448fe3747545ca40ec45a"
+    },
     "com.gemserk.selectionhistory": {
       "version": "1.5.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
+    },
+    "com.kybernetik.animancer": {
+      "version": "file:com.kybernetik.animancer",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.modules.animation": "1.0.0"
+      }
     },
     "com.needle.compilation-visualizer": {
       "version": "https://github.com/needle-tools/compilation-visualizer.git#master",
@@ -142,13 +157,6 @@
       "source": "git",
       "dependencies": {},
       "hash": "3e1f3ad2b31161de6e311a96cb03a1445d329511"
-    },
-    "com.teamon.screenshooter": {
-      "version": "https://github.com/Team-on/UnityScreenShooter.git#main",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "396f0c8e8335150e86c0e088a6683a6caaeeaa7c"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",

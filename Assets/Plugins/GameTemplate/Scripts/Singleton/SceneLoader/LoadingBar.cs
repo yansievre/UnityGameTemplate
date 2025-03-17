@@ -86,7 +86,7 @@ public class LoadingBar : MonoBehaviour {
 
 		loadingBarRoutine = StartCoroutine(needDelay ? LoadingBarUpdateWithDelay() : LoadingBarUpdate());
 
-		tipText.text = Polyglot.Localization.GetFormat(tipContainerKey, Polyglot.Localization.Get(tipsKeys.Random()));
+		tipText.text = tipsKeys.Random();
 		EnableCanvasGroup();
 	}
 

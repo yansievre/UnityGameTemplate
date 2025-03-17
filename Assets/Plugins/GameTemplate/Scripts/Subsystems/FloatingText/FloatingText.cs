@@ -54,7 +54,7 @@ public class FloatingText : MonoBehaviour {
 
 	#region Localized Play
 	public void PlayLocalized(string textKey, Color color) {
-		Play(Polyglot.Localization.Get(textKey), color);
+		Play(textKey, color);
 	}
 
 	public void PlayLocalized(string textKey) {
